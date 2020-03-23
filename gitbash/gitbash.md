@@ -8,7 +8,17 @@ git config --global user.name "kdseol"
 > 현재 깃 사용자 이메일 등록.
 
 ```bash
-git config --global user.email "kdseol@urpsys.com
+git config --global user.email "kdseol@urpsys.com"
+```
+
+> 만약 프로젝트마다 user.name과 user.email을 다르게 하고 싶다면,
+
+```bash
+git config --local user.name "kdseol"
+git config --local user.email "seolkd.e@gmail.com"
+```
+
+
 ```
 > 개행문자 문제 해결.
 
@@ -42,3 +52,14 @@ git commit -m "message"
 git push
 ```
 
+
+## 새로 레파지토리를 생성할 때
+
+GitHub에서 Repository를 생성한 후
+
+bash에서 똑같이
+
+```bash
+ git push --set-upstream [GitHub Address]
+
+```

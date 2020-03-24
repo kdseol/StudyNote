@@ -167,6 +167,9 @@ __두껍게__
 ![Alt text](/path/to/img.jpg)
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
+
+## rubberduck
+
 ![석촌호수 러버덕](https://camo.githubusercontent.com/202c9ae1d457d6109be6c4cf13db9cac5fd708a6/687474703a2f2f6366696c65362e75662e746973746f72792e636f6d2f696d6167652f32343236453634363534334339423435333243374230)
 ![석촌호수 러버덕](https://camo.githubusercontent.com/202c9ae1d457d6109be6c4cf13db9cac5fd708a6/687474703a2f2f6366696c65362e75662e746973746f72792e636f6d2f696d6167652f32343236453634363534334339423435333243374230 "RubberDuck")
 
@@ -264,3 +267,15 @@ But let's throw in a tag.
 `relative` | 요소 **자신**을 기준으로 배치 |
 `absolute` | 위치 상 **_부모_(조상)요소**를 기준으로 배치 |
 `fixed` | **브라우저 창**을 기준으로 배치 |
+
+## 12. 마크다운 문서 내부 링크 이동
+> [보여지는 텍스트](#이동할 위치의 텍스트)  
+#이동할 위치의 텍스트
+
+```
+[test](#test)
+#test
+```
+[rubberduck](#rubberduck)
+
+> 절대로 소문자만 가능하며 띄어쓰기는 '-' 로 구분해야 한다.

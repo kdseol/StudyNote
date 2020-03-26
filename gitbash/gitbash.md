@@ -12,6 +12,7 @@ git config --global user.email "kdseol@urpsys.com"
 ```
 
 > 만약 프로젝트마다 user.name과 user.email을 다르게 하고 싶다면,
+해당 프로젝트 커밋하는 위치에 가서 로컬유저네임과 이메일을 등록하면 된다.
 
 ```bash
 git config --local user.name "kdseol"
